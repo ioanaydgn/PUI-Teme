@@ -1,0 +1,14 @@
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.dll
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.csproj.AssemblyReference.cache
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.csproj.CoreCompileInputs.cache
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.dll
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.dll.config
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.dll.config
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.dll
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/bin/Debug/LibrarieModele.pdb
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.csproj.AssemblyReference.cache
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.csproj.CoreCompileInputs.cache
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.dll
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/LibrarieModele/obj/Debug/LibrarieModele.pdb

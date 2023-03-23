@@ -1,0 +1,27 @@
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.exe.config
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.exe
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.dll
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/NivelStocareData.dll
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/NivelStocareData.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.AssemblyReference.cache
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.SuggestedBindingRedirects.cache
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.CoreCompileInputs.cache
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.CopyComplete
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti.exe
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti.pdb
+//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.dll.config
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.AssemblyReference.cache
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.CoreCompileInputs.cache
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti.exe
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti.pdb
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.exe.config
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.exe
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/EvidentaStudenti.pdb
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.dll
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/NivelStocareData.dll
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.pdb
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/LibrarieModele.dll.config
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/bin/Debug/NivelStocareData.pdb
+/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/EvidentaStudenti_Consola/obj/Debug/EvidentaStudenti_Consola.csproj.CopyComplete
