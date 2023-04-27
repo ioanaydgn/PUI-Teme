@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-
 using LibrarieModele;
 using NivelStocareDate;
 
@@ -14,15 +12,22 @@ namespace EvidentaStudenti_Consola
         {
             Student student = new Student();
             string numeFisier = ConfigurationManager.AppSettings["NumeFisier"];
-            AdministrareStudenti_FisierText adminStudenti = new AdministrareStudenti_FisierText(numeFisier);
-            int nextId = GetNextIdStudent(numeFisier);
+			string locatieFisierSolutie = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            // setare locatie fisier in directorul corespunzator solutiei
+            // astfel incat datele din fisier sa poata fi utilizate si de alte proiecte
+            string caleCompletaFisier = locatieFisierSolutie + "\\" + numeFisier;
+
+            AdministrareStudenti_FisierText adminStudenti = new AdministrareStudenti_FisierText(caleCompletaFisier);
             int nrStudenti = 0;
+            // acest apel ajuta la obtinerea numarului de studenti inca de la inceputul executiei
+            // astfel incat o eventuala adaugare sa atribuie un IdStudent corect noului student
+            adminStudenti.GetStudenti(out nrStudenti);
 
             string optiune;
             do
             {
                 Console.WriteLine("I. Introducere informatii student");
-                Console.WriteLine("A. Afisare studenti");
+                Console.WriteLine("A. Afisarea ultimului student introdus");
                 Console.WriteLine("F. Afisare studenti din fisier");
                 Console.WriteLine("S. Salvare student in fisier");
                 Console.WriteLine("X. Inchidere program");
@@ -31,57 +36,31 @@ namespace EvidentaStudenti_Consola
                 switch (optiune.ToUpper())
                 {
                     case "I":
-                        int idStudent = nrStudenti + 1;
-
-                        Console.WriteLine("Introdu numele studentului {0} : ", idStudent);
-                        string nume = Console.ReadLine();
-                        Console.WriteLine("Introdu prenumele studentului {0} : ", idStudent);
-                        string prenume = Console.ReadLine();
-                        student = new Student(idStudent, nume, prenume);
-                        nrStudenti++;
+                        student = CitireStudentTastatura();
 
                         break;
                     case "A":
-                        string infoStudent = student.Info();
-                        Console.WriteLine("Studentul {0}", infoStudent);
+                        AfisareStudent(student);
 
                         break;
-                    /*case "F":
-                        Student[] studenti = adminStudenti.GetStudenti(out nrStudenti);
-                        AfisareStudenti(studenti, nrStudenti);
-
-                        break;
-                    case "D":
-                        Student[] studenti = adminStudenti.GetStudenti(out nrStudenti);
-                        AfisareStudenti(studenti, nrStudenti);
-                        DeleteStudentbyID(studenti, nrStudenti);
-                        break;*/
                     case "F":
-                        Student[] studentiF = adminStudenti.GetStudenti(out nrStudenti);
-                        AfisareStudenti(studentiF, nrStudenti);
+                        Student[] studenti = adminStudenti.GetStudenti(out nrStudenti);
+                        AfisareStudenti(studenti, nrStudenti);
 
                         break;
-                    case "D":
-                        Student[] studentiD = adminStudenti.GetStudenti(out nrStudenti);
-                        AfisareStudenti(studentiD, nrStudenti);
-                        DeleteStudentbyID(studentiD, nrStudenti);
-                        Console.WriteLine("Öğrenci başarıyla silindi.");
-                        break;
-
                     case "S":
-                        idStudent = nrStudenti + 1;
-                        nrStudenti++;
-                        //student = new Student(idStudent, "Ioana", "Radu");
+                        int idStudent = nrStudenti + 1;
+                        student.IdStudent = idStudent;
                         //adaugare student in fisier
                         adminStudenti.AddStudent(student);
-                        Console.WriteLine("Studentul a fost salvat in fisierul '{0}'", numeFisier);
+
+                        nrStudenti = nrStudenti + 1;
+
                         break;
                     case "X":
-
                         return;
                     default:
                         Console.WriteLine("Optiune inexistenta");
-
                         break;
                 }
             } while (optiune.ToUpper() != "X");
@@ -89,71 +68,41 @@ namespace EvidentaStudenti_Consola
             Console.ReadKey();
         }
 
+        public static void AfisareStudent(Student student)
+        {
+            string infoStudent = string.Format("Studentul cu id-ul #{0} are numele: {1} {2} si notele: {3}",
+                    student.IdStudent,
+                    student.Nume ?? " NECUNOSCUT ",
+                    student.Prenume ?? " NECUNOSCUT ",
+                    string.Join(",", student.GetNote()));
+
+            Console.WriteLine(infoStudent);
+        }
+
         public static void AfisareStudenti(Student[] studenti, int nrStudenti)
         {
             Console.WriteLine("Studentii sunt:");
             for (int contor = 0; contor < nrStudenti; contor++)
             {
-                string infoStudent = string.Format("Studentul cu id-ul #{0} are numele: {1} {2}",
-                   studenti[contor].GetIdStudent(),
-                   studenti[contor].GetNume() ?? " NECUNOSCUT ",
-                   studenti[contor].GetPrenume() ?? " NECUNOSCUT ");
-
-                Console.WriteLine(infoStudent);
+                AfisareStudent(studenti[contor]);
             }
         }
 
-
-        public static void DeleteStudentbyID(Student[] studenti, int nrStudenti)
+        public static Student CitireStudentTastatura()
         {
-            Console.WriteLine("Introduceți ID-ul de student care trebuie șters:");
-            int id = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Introduceti numele");
+            string nume = Console.ReadLine();
 
-            bool found = false;
+            Console.WriteLine("Introduceti prenumele");
+            string prenume = Console.ReadLine();
 
-            for (int i = 0; i < nrStudenti; i++)
-            {
-                if (studenti[i].GetIdStudent() == id)
-                {
-                    found = true;
-                    for (int j = i; j < nrStudenti - 1; j++)
-                    {
-                        studenti[j] = studenti[j + 1];
-                    }
-                    nrStudenti--;
-                    Array.Resize(ref studenti, nrStudenti);
-                    Console.WriteLine("Öğrenci başarıyla silindi.");
-                    break;
-                }
-            }
-            if(!found)
-            {
-                Console.WriteLine("Öğrenci bulunamadı.");
-            }
-        }
+            Student student = new Student(0, nume, prenume);
 
+            Console.WriteLine("Introduceti notele");
+            string note = Console.ReadLine();
+            student.SetNote(note);
 
-        public static int GetNextIdStudent(string numeFisier)
-        {
-            int nextId = 1;
-
-            if (File.Exists(numeFisier))
-            {
-                using (StreamReader sr = File.OpenText(numeFisier))
-                {
-                    string line;
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        string[] fields = line.Split(',');
-                        int idStudent = 0;
-                        if (int.TryParse(fields[0], out idStudent))
-                        {
-                            nextId = idStudent + 1;
-                        }
-                    }
-                }
-            }
-            return nextId;
+            return student;
         }
     }
 }

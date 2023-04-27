@@ -1,20 +1,18 @@
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.dll
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.pdb
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.dll
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.pdb
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.AssemblyReference.cache
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CoreCompileInputs.cache
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CopyComplete
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.dll
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.pdb
-//Mac/Home/Downloads/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.dll.config
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.dll
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.pdb
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.dll
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.pdb
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.dll.config
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.AssemblyReference.cache
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CoreCompileInputs.cache
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CopyComplete
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.dll
-/Users/mertaydogan/Desktop/New folder/AplicatieDemoPIU-main/AplicatieDemoPIU-main/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.pdb
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.dll
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/bin/Debug/NivelStocareData.pdb
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.dll
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/bin/Debug/LibrarieModele.pdb
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.AssemblyReference.cache
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CoreCompileInputs.cache
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.csproj.CopyComplete
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.dll
+/Users/mertaydogan/Desktop/PUI-PUI/AplicatieDemoPIU/EvidentaStudenti/NivelStocareData/obj/Debug/NivelStocareData.pdb
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\bin\Debug\NivelStocareData.dll
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\bin\Debug\NivelStocareData.pdb
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\bin\Debug\LibrarieModele.dll
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\bin\Debug\LibrarieModele.pdb
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\obj\Debug\NivelStocareData.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\obj\Debug\NivelStocareData.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\obj\Debug\NivelStocareData.csproj.CopyComplete
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\obj\Debug\NivelStocareData.dll
+\\Mac\Home\Desktop\PUI-PUI\AplicatieDemoPIU\EvidentaStudenti\NivelStocareData\obj\Debug\NivelStocareData.pdb
